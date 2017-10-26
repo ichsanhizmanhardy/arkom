@@ -1,0 +1,32 @@
+Jika digit desimal yang dikurangkan lebih kecil dari pada digit desimal yang akan dikurangi, maka yang terjadi adalah konsep peminjaman.
+Digit tersebut akan meminjam satu dari digit sebelah kirinya.
+
+Contoh 1
+
+1111011            desimal 123
+101001             desimal 41
+——————— –
+1010010            desimal 82
+
+Pada contoh di atas tidak terjadi konsep peminjaman.
+
+Contoh 2
+
+0                  kolom ke 3 menjadi 0, sudah dipinjam
+111101             desimal 61
+10010              desimal 18
+——–——— –
+101011             Hasil pengurangan akhir 43
+
+
+Pada soal yang kedua ini kita pinjam 1 dari kolom 3, karena ada selisih 0-1 pada kolom ke 2
+
+Jika kita meminjam 1 dari kolom keenam untuk kolom kedua, karena kolom ketiga, keemat dan kolom kelima adalah nol. Setelah meminjam, kolom ketiga, keempat, dan kelima menjadi: 10 – 9 = 1
+Hal ini juga berlaku dalam pengurangan biner, kecuali bahwa setelah meminjam kolom nol akan mengandung: 10 – 1 = 1
+
+contoh 3 pengurangan bilangan biner 110001–1010 akan diperoleh hasil sebagai berikut:
+
+1100101
+10 10
+——————— –
+1001 11
